@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "name": "Whisperwind Field",
+  "width": 15,
+  "height": 11,
+  "tileSize": 32,
+  "encounterList": [1, 1, 2, 3],
+  "encounterSteps": 18,
+  "startX": 7,
+  "startY": 5,
+  "layout": [
+    "111111111111111",
+    "100000000000001",
+    "100011111000001",
+    "100010000000001",
+    "100010111110001",
+    "100000100000001",
+    "100011100011101",
+    "100000000010001",
+    "100000000010001",
+    "100000000000001",
+    "111111111111111"
+  ],
+  "events": [
+    { "kind": "npc", "x": 2, "y": 1, "name": "Old Wanderer", "dialogue": [
+      "The road to town lies through the gate in the south-east corner.",
+      "Watch out for wolves after dusk...",
+      "They say a hidden path west of here winds up to an old shrine. I'd not go looking for it, if I were you."
+    ] },
+    { "kind": "warp", "x": 13, "y": 9, "destMapId": 2, "destX": 5, "destY": 7 },
+    {
+      "kind": "boss",
+      "x": 6,
+      "y": 3,
+      "name": "Corrupted Shrine Warden",
+      "enemyId": 4,
+      "switchKey": "shrineBossDefeated",
+      "introLines": [
+        "A pulse of black light rises from the shrine altar!",
+        "The Corrupted Shrine Warden blocks your path, its form seething with the Blight."
+      ],
+      "clearedLines": [
+        "The altar glows with a faint, clean light. The corruption here has receded."
+      ]
+    }
+  ]
+}
+
+

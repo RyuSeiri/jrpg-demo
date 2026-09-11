@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Iron Sword", "atk": 5, "mat": 0, "price": 60 },
+  { "id": 2, "name": "Steel Mace", "atk": 8, "mat": 0, "price": 90 },
+  { "id": 3, "name": "Apprentice Wand", "atk": 1, "mat": 6, "price": 70 },
+  { "id": 4, "name": "Silver Blade", "atk": 10, "mat": 0, "price": 150 }
+]

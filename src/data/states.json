@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Poison", "icon": "☠", "turns": 3, "hpPerTurn": -6 },
+  { "id": 2, "name": "Paralyze", "icon": "⚡", "turns": 2, "paralyze": true }
+]

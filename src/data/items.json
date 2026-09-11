@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Potion", "description": "Restores 30 HP", "hpRecover": 30, "mpRecover": 0, "price": 15 },
+  { "id": 2, "name": "Ether", "description": "Restores 20 MP", "hpRecover": 0, "mpRecover": 20, "price": 20 },
+  { "id": 3, "name": "Antidote", "description": "Cures Poison", "hpRecover": 0, "mpRecover": 0, "removeState": 1, "price": 10 }
+]
+

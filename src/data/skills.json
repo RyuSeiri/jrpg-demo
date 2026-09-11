@@ -1,0 +1,15 @@
+[
+  { "id": 1, "name": "Slash", "mpCost": 0, "power": 14, "type": "physical" },
+  { "id": 2, "name": "Heavy Strike", "mpCost": 6, "power": 24, "type": "physical" },
+  { "id": 3, "name": "Shield Bash", "mpCost": 4, "power": 10, "type": "physical" },
+  { "id": 4, "name": "Fire Bolt", "mpCost": 8, "power": 22, "type": "magical" },
+  { "id": 5, "name": "Heal", "mpCost": 10, "power": -30, "type": "heal" },
+  { "id": 6, "name": "Venom Edge", "mpCost": 5, "power": 12, "type": "physical", "stateId": 1, "hitRate": 0.6 },
+  { "id": 7, "name": "Cure Poison", "mpCost": 6, "power": -12, "type": "heal", "removeState": true },
+  { "id": 8, "name": "Acid Spit", "mpCost": 0, "power": 8, "type": "magical", "stateId": 1, "hitRate": 0.4 },
+  { "id": 9, "name": "Howl Bite", "mpCost": 0, "power": 10, "type": "physical", "stateId": 2, "hitRate": 0.3 },
+  { "id": 10, "name": "Blight Surge", "mpCost": 0, "power": 26, "type": "magical", "stateId": 1, "hitRate": 0.7 },
+  { "id": 11, "name": "Warden's Roar", "mpCost": 0, "power": 6, "type": "physical", "stateId": 2, "hitRate": 0.35 }
+]
+
+

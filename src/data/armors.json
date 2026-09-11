@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Cloth Robe", "def": 3, "mdf": 4, "price": 40 },
+  { "id": 2, "name": "Iron Armor", "def": 8, "mdf": 2, "price": 80 },
+  { "id": 3, "name": "Mage Cloak", "def": 4, "mdf": 8, "price": 90 }
+]

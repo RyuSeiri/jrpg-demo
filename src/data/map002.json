@@ -1,0 +1,38 @@
+{
+  "id": 2,
+  "name": "Rivergate Town",
+  "width": 11,
+  "height": 9,
+  "tileSize": 32,
+  "encounterList": [],
+  "encounterSteps": 999999,
+  "startX": 5,
+  "startY": 7,
+  "layout": [
+    "11111111111",
+    "10000000001",
+    "10000000001",
+    "10000000001",
+    "10000000001",
+    "10000000001",
+    "10000000001",
+    "10000000001",
+    "11111111111"
+  ],
+  "events": [
+    { "kind": "shop", "x": 3, "y": 3, "name": "General Store", "shopId": 1 },
+    { "kind": "savepoint", "x": 7, "y": 3 },
+    { "kind": "warp", "x": 5, "y": 1, "destMapId": 1, "destX": 13, "destY": 8 },
+    { "kind": "npc", "x": 7, "y": 5, "name": "Elder Rosa", "dialogue": [
+      "Rosa: Ah, more strangers come to stare at our dying river.",
+      "Rosa: If you're bound for Whisperwind Field, look for the old shrine at its heart -- that's where the Blight is thickest.",
+      "Rosa: My grandmother said the shrine used to purify the land, before it went silent. Perhaps it can be woken again.",
+      "Rosa: Rest here as long as you need. Rivergate's gates are always open to the brave -- or the desperate."
+    ] },
+    { "kind": "npc", "x": 3, "y": 6, "name": "Guard Yusuf", "dialogue": [
+      "Yusuf: Keep your blades sharp out there. We lost two patrols to wolves this month alone.",
+      "Yusuf: The General Store still has some stock left, if you're low on supplies."
+    ] }
+  ]
+}
+

@@ -1,0 +1,3 @@
+[
+  { "id": 1, "name": "General Store", "itemIds": [1, 2, 3], "weaponIds": [1, 2, 3, 4], "armorIds": [1, 2, 3] }
+]
